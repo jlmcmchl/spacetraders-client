@@ -2127,7 +2127,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2191,7 +2191,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2239,7 +2239,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2314,7 +2314,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2370,7 +2370,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "properties": {
                                         "data": {
@@ -2425,7 +2425,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2481,7 +2481,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2537,7 +2537,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "properties": {
                                         "data": {
@@ -2595,7 +2595,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "properties": {
                                         "data": {
@@ -2637,7 +2637,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "properties": {
                                         "data": {
@@ -2672,7 +2672,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2736,7 +2736,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "properties": {
                                         "data": {
@@ -2792,7 +2792,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "properties": {
                                         "data": {
@@ -2875,7 +2875,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2934,7 +2934,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -2982,7 +2982,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3118,7 +3118,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3175,7 +3175,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3222,7 +3222,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "title": "Orbit Ship 200 Response",
                                     "description": "",
@@ -3306,7 +3306,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "title": "Ship Refine 200 Response",
                                     "description": "",
@@ -3443,7 +3443,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3503,7 +3503,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "title": "Dock Ship 200 Response",
                                     "description": "",
@@ -3718,7 +3718,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3790,7 +3790,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3868,7 +3868,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3941,7 +3941,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -3975,7 +3975,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -4040,7 +4040,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -4366,7 +4366,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "description": "",
                                     "properties": {
@@ -4535,7 +4535,7 @@
                 "responses": {
                     "200": {
                         "content": {
-                            "application/json": {
+                            "application/json; charset=utf-8": {
                                 "schema": {
                                     "title": "Transfer Cargo 200 Response",
                                     "description": "",

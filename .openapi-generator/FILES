@@ -199,6 +199,8 @@ setup.py
 test-requirements.txt
 test/__init__.py
 test/test_models/__init__.py
+test/test_models/test_agent.py
+test/test_models/test_chart.py
 test/test_models/test_connected_system.py
 test/test_models/test_contract.py
 test/test_models/test_contract_deliver_good.py

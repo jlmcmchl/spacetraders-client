@@ -120,7 +120,7 @@ request_body_any_type = api_client.RequestBody(
 )
 
 
-class SchemaFor200ResponseBodyApplicationJson(
+class SchemaFor200ResponseBodyApplicationJsonCharsetutf8(
     schemas.DictSchema
 ):
 
@@ -237,7 +237,7 @@ class SchemaFor200ResponseBodyApplicationJson(
         data: typing.Union[MetaOapg.properties.data, dict, frozendict.frozendict, ],
         _configuration: typing.Optional[schemas.Configuration] = None,
         **kwargs: typing.Union[schemas.AnyTypeSchema, dict, frozendict.frozendict, str, date, datetime, uuid.UUID, int, float, decimal.Decimal, None, list, tuple, bytes],
-    ) -> 'SchemaFor200ResponseBodyApplicationJson':
+    ) -> 'SchemaFor200ResponseBodyApplicationJsonCharsetutf8':
         return super().__new__(
             cls,
             *_args,
@@ -251,7 +251,7 @@ class SchemaFor200ResponseBodyApplicationJson(
 class ApiResponseFor200(api_client.ApiResponse):
     response: urllib3.HTTPResponse
     body: typing.Union[
-        SchemaFor200ResponseBodyApplicationJson,
+        SchemaFor200ResponseBodyApplicationJsonCharsetutf8,
     ]
     headers: schemas.Unset = schemas.unset
 
@@ -259,12 +259,12 @@ class ApiResponseFor200(api_client.ApiResponse):
 _response_for_200 = api_client.OpenApiResponse(
     response_cls=ApiResponseFor200,
     content={
-        'application/json': api_client.MediaType(
-            schema=SchemaFor200ResponseBodyApplicationJson),
+        'application/json; charset=utf-8': api_client.MediaType(
+            schema=SchemaFor200ResponseBodyApplicationJsonCharsetutf8),
     },
 )
 _all_accept_content_types = (
-    'application/json',
+    'application/json; charset=utf-8',
 )
 
 
